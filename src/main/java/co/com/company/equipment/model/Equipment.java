@@ -17,7 +17,9 @@ public class Equipment implements Serializable {
     private String description;
     private String serial;
     private LocalDate purchaseDate;
-    private Integer purchaseValue;
+    private Double purchaseValue;
+    private Integer numberYears;
     private String state;
+    private String companyId;
 
 }
