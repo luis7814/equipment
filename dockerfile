@@ -2,7 +2,7 @@
 FROM adoptopenjdk/openjdk:17-jdk-alpine
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/peigo-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/equipment-0.0.1-SNAPSHOT.jar
 
 # cd /opt/app
 WORKDIR /opt/app
